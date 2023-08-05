@@ -6,7 +6,7 @@ git clone https://github.com/locrun/sorting.git
 ```
 
 
-Введите команду, что бы перейти в папку modules:
+Введите команду, что бы перейти в папку views:
 ```
 cd views
 ```
