@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "John",
+      "email": "john2@mail.com",
+      "disabled": false
+    },
+    {
+      "name": "John",
+      "disabled": false,
+      "email": "john1@mail.com"
+    },
+    {
+      "name": "Jane",
+      "email": "john3@mail.com",
+      "disabled": false,
+      "rating": 0
+    }
+  ]
+}
