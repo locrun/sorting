@@ -1,5 +1,5 @@
 export const sortData = (data) => {
-  if (!Array.isArray(data) || data.length === 0) {
+  if (!Array.isArray(data)) {
     throw new Error(
       'Invalid input data: "data" parameter is missing or not an array'
     )

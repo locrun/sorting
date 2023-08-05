@@ -1,10 +1,5 @@
 export const keyFilter = (data, keys) => {
-  if (
-    !Array.isArray(data) ||
-    data.length === 0 ||
-    !Array.isArray(keys) ||
-    keys.length === 0
-  ) {
+  if (!Array.isArray(data) || !Array.isArray(keys)) {
     throw new Error(
       'Invalid input data or keys: "data" or "keys" parameter is missing or not an array'
     )
